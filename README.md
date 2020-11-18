@@ -1,6 +1,15 @@
 # golang-webfileserve
 simple app to serve files and show them inside the webbrowser
 
+## running straight with golang
+
+1. pull this repo
+2. run "go run main.go"
+
+Access webpage via http://localhost:8100/files
+
+Adding files to the /files folder will show them into webpage
+
 ## Running docker image
 
 1. run "go build" inside this folder
